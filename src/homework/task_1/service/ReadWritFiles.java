@@ -12,7 +12,6 @@ public class ReadWritFiles {
         try(BufferedReader reader = new BufferedReader(new FileReader(path))){
             String line = reader.readLine();
             while (line != null) {
-                System.out.println(line);
                 Validator.validationNameDocuments(line);
                 line = reader.readLine();
             }
