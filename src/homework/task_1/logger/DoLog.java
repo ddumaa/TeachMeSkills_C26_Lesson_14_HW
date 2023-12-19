@@ -1,4 +1,4 @@
-package homework.task_1.logs;
+package homework.task_1.logger;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.Date;
 
-public class Log {
+public class DoLog {
 
     private static final String EXECUTION_LOG_FILE = "C:\\Users\\dimad\\IdeaProjects\\TeachMeSkills_C26_Lesson_14_HW\\log\\execution_log\\execution_log.txt";
     private static final String ERROR_LOG_FILE = "C:\\Users\\dimad\\IdeaProjects\\TeachMeSkills_C26_Lesson_14_HW\\log\\error_log\\error_log.txt";
